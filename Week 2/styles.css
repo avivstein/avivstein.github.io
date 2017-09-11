@@ -1,0 +1,16 @@
+body {
+    background-color: cornsilk;
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(244, 229, 66);
+    line-height: 1.2;
+}
+
+h1, h2, h3 {
+    color: greenyellow;
+    
+}
+
+h1 {
+    text-decoration: overline;
+}
