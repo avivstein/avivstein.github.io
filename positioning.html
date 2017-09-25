@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning and Display</title>
+        <style>
+            *{
+                border: 1px solid black;
+            }
+            
+            .example{
+                background-color: darkgray;
+                width: 300px;
+                height: 300px;
+                margin:auto
+            }
+            
+            span{
+                background-color: aqua;
+            }
+            
+            .maxwidth{
+                max-width: 500px;
+            }
+            
+            .relative2{
+                position: relative;
+                top: 20px;
+                left: -150px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class=example>
+            This is a div. This is a <span>span</span>.
+        </div>
+        <div class=maxwidth>
+        Text
+        </div>
+        <div class=relative1>
+            Relative 1
+            <div class=relative2>
+            Relative 2
+            </div>
+        </div>
+    </body>
+</html>
