@@ -1,0 +1,40 @@
+.logo{
+    width:150px;
+    float: left;
+    margin-right: 40px
+    
+}
+
+.navigation{
+    font-family: bebas neue heavy;
+    font-size: 20px;
+    color: orangered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.navigation li{
+    padding: 20px;
+    margin: 20px;    
+}
+
+.eventname{
+    float:left;
+    margin: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: bebas neue heavy;
+}
+
+.date{
+    float:left;
+    
+}
+
+@media screen and (min-width:600px){
+  nav li{
+    display:inline;
+}
+

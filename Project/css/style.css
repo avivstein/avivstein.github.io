@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Oswald');
+
+body {
+    font-family: 'Lora', Times, Georgia, serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: url('https://www.metoffice.gov.uk/binaries/content/gallery/mohippo/images/migrated-image/c/cirrus_clouds.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', Helvetica, arial;
+}
+
+/* Layout */
+.header {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    float: left;
+}
+
+.header h2 {
+    float: right;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.content {
+    margin: 100px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.event {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.event h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.event .location {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.event ul {
+    font-family: 'Oswald';
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event ul li {
+    margin-bottom: 1rem;
+}
