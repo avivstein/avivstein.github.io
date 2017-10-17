@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: .5px;
+    text-align: center;
+    margin-top: 450px;
+}
