@@ -2,11 +2,53 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+/*remove the first "a" when done to allow activated links to be white.*/
+a a:visited{
+  color: inherit;
+}
+
 p{
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    letter-spacing: .5px;
     text-align: center;
-    margin-top: 450px;
+    top: 420px;
+    position: relative;
+}
+
+.back{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: deepskyblue;
+    text-align: center;
+    top: 400px;
+    position: relative;
+}
+
+/* This action is hidden in this page */
+.action{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: deepskyblue;
+    text-align: center;
+    top: 470px;
+    position: relative;
+    visibility: hidden;
+}
+
+/* This element is hidden because I don't know how to align it to be dependent on the <p> element. */
+.triangle {
+    width: 0;
+    height: 0;
+    border: solid 20px;
+    border-color: transparent deepskyblue transparent  transparent;
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    visibility: hidden;
 }
