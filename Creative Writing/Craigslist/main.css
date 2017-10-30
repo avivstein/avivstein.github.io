@@ -1,0 +1,44 @@
+.rows{
+    list-style-type: none;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin: 20px;
+}
+
+header{
+    font-family: 'Arial';
+    font-size: 19px;
+    background-color: #eee;
+    padding: 13px;
+}
+
+header p{
+    padding-left: 75px;
+}
+
+li h1, h2, h3, p{
+    display: inline-block;
+}
+
+h1{
+    font-family: "Arial";
+    color: darkorange;
+    font-size: 13pt;
+}
+
+h2{
+    font-family: "Arial";
+    color: green;
+    font-size: 13pt;
+}
+
+h3{
+    font-family: "Times New Roman";
+    font-size: 10pt;
+    opacity: 0.6;
+}
+
+li p{
+    font-family: "Arial";
+    font-size: 13pt;
+}
