@@ -32,10 +32,10 @@
             font-size: 13pt;
             font-family: "Arial";
             position: relative;
-            margin: 50px;
-            float: right;
+            margin: 55px;
             bottom: 195px;
-            right: 500px;
+            left: 900px;
+            bottom: 160px;
         }
         
         .description h1{
@@ -47,27 +47,50 @@
         }
         
         .description p{
-            margin-top: 25px;
+            margin-top: 15px;
+            float: left;
         }
         
-        .line{
-            max-width: 896px;
+        hr{
             position: relative;
-            left: 1003px;
-            color: white;
-            bottom: 87px;
+            width: 892px;
+            
         }
         
-        .icons{
+        .heart{
             max-width: 40px;
             opacity: .25;
+            float: right;
             position: relative;
-            margin: 10px;
-            left: 900px;
-            display: in
+            padding-top: 5px;
         }
         
-        .icons:hover{
+        .heart:hover{
+            opacity: 1.0;
+        }
+        
+        .comment{
+            max-width: 40px;
+            opacity: .25;
+            float: right;
+            position: relative;
+            padding-top: 5px;
+        }
+        
+        .comment:hover{
+            opacity: 1.0;
+        }
+        
+        .repost{
+            max-width: 40px;
+            opacity: .25;
+            float: right;
+            position: relative;
+            padding-top: 5px;
+            
+        }
+        
+        .repost:hover{
             opacity: 1.0;
         }
         
@@ -81,24 +104,13 @@
     <section>
         <div class="post">
         <img src="images/A.svg">
-        </div>
-        !--start over and try what alex drew on the paper--!
-        <div class="mainbox">
             <div class="description">
                 <h1>0401</h1>
+                <hr>
                 <p>Something something, something something.</p>
-            </div>
-            <hr> 
-            <div class="icons">
-                <div class="heart">
-                    <img src="images/Tumblr%20icons-10.svg">
-                </div>
-                <div class="comment">
-                    <img src="images/Tumblr%20icons-11.svg">
-                </div>
-                <div class="repost">
-                    <img src="images/Tumblr%20icons-12.svg">
-                </div>
+                <img class="repost" src="images/Tumblr%20icons-12.svg">
+                <img class="comment" src="images/Tumblr%20icons-11.svg">
+                <img class="heart" src="images/Tumblr%20icons-10.svg">
             </div>
         </div>
     </section>
