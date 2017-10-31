@@ -13,20 +13,68 @@ a:hover{
     text-decoration: underline;
 }
 
+/* HEADER */
+
+.top{
+    display: inline-block;
+}
+
 header{
     font-family: 'Arial';
     font-size: 19px;
     background-color: #eee;
-    padding: 13px;
+    padding: 10px;
+    border-bottom: 1.5px solid lightgray;
+    margin-bottom: 10px;
 }
 
 header p{
-    padding-left: 75px;
+    padding-left: 15px;
+}
+
+h4{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 1em;
+    border: 1.5px solid #ccc;
 }
 
 li h1, h2, h3, p{
     display: inline-block;
 }
+
+/* SEARCH BAR */
+
+.searchbar{
+    flex-grow: 1;
+    border: 1.5px solid #ccc;
+    padding: 13px;
+    border-radius: .25em;
+    margin: 10px;
+    display: inline-block;
+    width: 75%;
+}
+
+.searchbar p{
+    font-family: 'Arial';
+    color: grey;
+    font-size: 1.35em;
+}
+
+.look{
+    width: 25px;
+}
+
+.searchbutton{
+    display: inline-block;
+    vertical-align: top;
+    border: 1.5px solid #ccc;
+    padding: 10px 10px 9px;
+    border-radius: .25em;
+    margin: 10px 0 0 0;
+}
+
+/* CONTENT */
 
 h1{
     font-family: "Arial";
@@ -45,6 +93,8 @@ h3{
     font-size: 10pt;
     opacity: 0.6;
 }
+
+
 
 li p{
     font-family: "Arial";
