@@ -159,3 +159,12 @@ li p{
 .footer p{
     margin-right: 15px;
 }
+
+h10{
+    font-family: "Arial";
+    font-size: 13pt;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
