@@ -132,3 +132,30 @@ li p{
     width: 30%;
     top: 45px;
 }
+
+/* FOOTER */
+
+.footer{
+    display: inline-block;
+    font-family: "Arial";
+    background-color: #eee;
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 12.5pt;
+    border-top: 1.5px solid #ccc;
+}
+
+.footer h1{
+    color: blue;
+    display: inline-block;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12.5pt;
+    
+}
+
+.footer p{
+    margin-right: 15px;
+}

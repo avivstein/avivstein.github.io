@@ -118,3 +118,70 @@ p{
     padding-right: 10px;
     line-height: 1.13;
 }
+
+/* OUTRO */
+
+section{
+    margin-bottom: 70px;
+}
+
+.outro{
+    font-family: "Arial";
+    margin-top: 80px;
+}
+
+h7{
+    padding: 5px;
+    background-color: #fafafa;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.12em;
+    margin: 10px;
+    line-height: 2.3;
+    position: relative;
+}
+
+.outro ul{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+
+h8{
+    font-family: "Arial";
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-size: 11.5pt;
+}
+
+/* FOOTER */
+
+.footer{
+    display: inline-block;
+    font-family: "Arial";
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    font-size: 12.5pt;
+    border-top: 1.5px solid #ccc;
+    padding-bottom: 13px;
+    margin-top: 30px;
+}
+
+.footer h1{
+    color: blue;
+    display: inline-block;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12.5pt;
+    
+}
+
+.footer p{
+    margin-right: 15px;;
+    font-family: "Arial";
+    font-size: 13pt;
+}
