@@ -2,7 +2,10 @@
     list-style-type: none;
     font-family: 'Times New Roman';
     font-size: 20px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 li{
@@ -27,9 +30,9 @@ header{
     font-family: 'Arial';
     font-size: 19px;
     background-color: #eee;
-    padding: 10px;
+    padding: 8px;
     border-bottom: 1.5px solid lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 header p{
@@ -53,11 +56,12 @@ li h1, h2, h3, p{
 .searchbar{
     flex-grow: 1;
     border: 1.5px solid #ccc;
-    padding: 13px;
+    padding: 12px;
     border-radius: .25em;
-    margin: 10px;
+    margin-left: 10px;
     display: inline-block;
-    width: 75%;
+    width: 78%;
+    background-color: white;
 }
 
 .searchbar p{
@@ -68,18 +72,23 @@ li h1, h2, h3, p{
 
 .look{
     width: 25px;
+    opacity: .8;
 }
 
 .searchbutton{
     display: inline-block;
+    background-color: white;
     vertical-align: top;
     border: 1.5px solid #ccc;
-    padding: 10px 10px 9px;
+    padding: 9px 9px 9px;
     border-radius: .25em;
-    margin: 10px 0 0 0;
 }
 
 /* CONTENT */
+
+li a{
+    line-height: 1.5;
+}
 
 h1{
     font-family: "Arial";
@@ -110,5 +119,16 @@ li p{
     width: 20px;
     opacity: .35;
     float: left;
-    padding-right: 10px;
+    padding-right: 7px;
+    z-index: 999;
+    margin-top: 5px;
+}
+
+.logo{
+    position: absolute;
+    z-index: -9999999;
+    right: 0;
+    opacity: .25;
+    width: 30%;
+    top: 45px;
 }
