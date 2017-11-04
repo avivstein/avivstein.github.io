@@ -1,6 +1,12 @@
+.pics{
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
 
 .top{
     display: inline-block;
+    padding: 5px;
 }
 
 header{
@@ -18,13 +24,16 @@ header p{
     font-size: 14pt;
 }
 
-h4{
+.home{
     background-color: #fff;
-    padding: 5px;
-    border-radius: 1em;
+
+    padding: 3.5px;
+    padding-right: 5px;
     border: 1.5px solid #ccc;
-    color: #551a8b;
+    border-radius: 1em;
+    text-decoration: none;
     font-size: 1.1em;
+    color: #551a8b;
 }
 
 /* SECOND HEADER */
@@ -115,14 +124,6 @@ h1, h2{
 }
 
 /* CONTENT */
-
-.flink{
-    color: blue;
-    font-family: "Times New Roman";
-    font-size: 16pt;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 p{
     font-family: "Times New Roman";
