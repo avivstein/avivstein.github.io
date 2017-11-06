@@ -1,0 +1,204 @@
+/* FCD SURFBOARDS */
+
+
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700');
+/*
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-family: 'Roboto Condensed', Impact, sans-serif;
+*/
+
+/* GLOBAL STYLES */
+body{
+    font-family: 'Roboto', arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+button{
+    margin: 16px 0px;
+    padding: 20px 36px;
+    background-color: red;
+    border: none;
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer; /* THIS IS FUN TO PLAY WITH*/
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    border-top: 6px solid red;
+    z-index: 9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header h1{
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin-top: 20px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+header nav ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* HOME PAGE STYLES */
+.hero{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(images/home-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+}
+
+.hero-text-container{
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    display: table;
+}
+
+.hero-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hero-text h1{
+    color: white;
+    font-size: 60px;
+    line-height: 1em;
+}
+
+.feature{
+    width: 100%;
+    position: relative;
+    clear: both;
+    box-sizing: border-box;
+    margin: 50px 0px 150px;
+}
+
+.feature-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.feature-text{
+    width: 40%;
+    float: left;
+}
+
+.feature-text h5{
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.feature-text h2{
+    margin: 10px 0px 24px;
+    font-size: 46px;
+    line-height: 1.2em;
+    color: red;
+}
+
+.feature-image{
+    width: 50%;
+    float: right;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+/* PRE-FOOTER AND FOOTER*/
+
+.pre-footer{
+    width: 100%;
+    position: relative;
+    clear: both;
+    background-color: #32292B;
+}
+
+.pre-footer-qs, .pre-footer-sr{
+    width: 50%;
+    float: left;
+    height: 300px;
+    display: table;
+}
+
+.pre-footer-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.pre-footer-qs{
+    background-image: url(images/prefooter-quiver.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pre-footer-sr{
+    background-image: url(images/prefooter-shaping.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pre-footer-text button{
+    background: none;
+    border: 3px solid white;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    clear: both;
+    background-color: #32292B;
+}
+
+.footer-container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+footer address{
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* RESPONSIVE STYLES */
