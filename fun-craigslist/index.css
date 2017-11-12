@@ -1,0 +1,15 @@
+*{
+    cursor: url(cur116.cur), default;
+}
+
+h1{
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    font-size: 50pt;
+}
+
+h1:hover{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}

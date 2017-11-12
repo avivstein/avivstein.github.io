@@ -1,3 +1,6 @@
+#{
+    cursor: url(http://www.hop-verliesverwerking.nl/wp-content/uploads/2014/05/hand-woman-gesture.png), auto;
+}
 
 header nav ul{
     margin: 40px;
@@ -24,7 +27,7 @@ header nav ul button{
     font-weight: 400;
     font-size: 20pt;
     letter-spacing: .5px;
-    cursor: pointer;
+    cursor: url(http://www.hop-verliesverwerking.nl/wp-content/uploads/2014/05/hand-woman-gesture.png), auto;
 }
 
 .nav-left, .nav-right{
