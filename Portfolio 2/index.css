@@ -1,35 +1,75 @@
 
-
 header nav ul{
     margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left header nav ul{
+    max-width: 800px; /*NOT WORKING*/
 }
 
 header nav ul li{
-    display: inline-block;
     font-family: bebas-neue, sans-serif;
     font-weight: 400;
     font-size: 20pt;
     letter-spacing: .5px;
 }
 
-header nav ul li:not(.aviv){
-    padding-right: 40px;
+header nav ul button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    letter-spacing: .5px;
+    cursor: pointer;
 }
 
-.products{
-    color: deepskyblue;
+.nav-left, .nav-right{
+    display: inline-block;
 }
 
-.experiences{
-    color: deeppink;
+/* HOVER STATES */
+.products:hover{
+    background-color: deepskyblue;
+    color: white;
 }
 
-.graphics{
-    color: blueviolet;
+.experiences:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+.graphics:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.illustrations:hover{
+    background-color: black;
+    color: white;
+}
+
+/* CLICK STATES */
+.products:click{
+    display:block;
+}
+
+.nav-right{
+    float: right;
+    margin: 40px;
 }
 
 .aviv{
-    float: right;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    letter-spacing: .5px;
 }
 
 /* SQUARES */
