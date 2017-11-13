@@ -34,6 +34,10 @@ button{
     cursor: pointer; /* THIS IS FUN TO PLAY WITH*/
 }
 
+button:hover{
+    background-color: aqua;
+}
+
 header{
     width: 100%;
     position: absolute;
@@ -158,6 +162,12 @@ header nav ul li a:hover{
     float: left;
     height: 300px;
     display: table;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.pre-footer-qs:hover, .pre-footer-sr:hover{
+    opacity: 1;
 }
 
 .pre-footer-text{
@@ -202,3 +212,62 @@ footer address{
 }
 
 /* RESPONSIVE STYLES */
+
+@media screen and (max-width:599px) {
+    body{
+        /*background-color: aqua;*/
+        text-align: center;
+    }
+    
+    header h1, header nav{
+        float: none;
+    }
+    
+    .feature-text, .feature-image{
+        padding: 0px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .grid .surfboard{
+        width: 100%;
+    }
+    
+    .pre-footer-sr, .pre-footer-qs{
+        width: 100%;
+    }
+    
+    .feature-image{
+        margin-bottom: 50px;
+    }
+    
+    .footer-container{
+        padding: 50px 20px 50px;
+    }
+    
+    .hero-text{
+        padding: 20px;
+    }
+}
+
+/* HOW TO TILE IMAGES */
+
+.surfboards-container{
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .surfboard{
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.surfboard-image img{
+    width: 100%;
+}

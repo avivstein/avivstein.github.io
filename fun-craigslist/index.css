@@ -1,8 +1,7 @@
-/*
 *{
-    width: fixed;
+    cursor: url(HANDY.png), auto;
+    /* must be png, 128x128 */
 }
-*/
 
 header h1{
     font-family: "Times New Roman";
