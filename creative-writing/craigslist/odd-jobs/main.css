@@ -54,7 +54,8 @@ li h1, h2, h3, p{
 /* SEARCH BAR */
 .search{
     display: flex;
-    max-width: 1000px;
+    max-width: 900px;
+    margin-right: 10px;
 }
 
 .searchbar{
@@ -83,7 +84,6 @@ li h1, h2, h3, p{
     padding: 9px 9px 9px;
     border-radius: .25em;
     margin-left: 10px;
-    margin-right: 10px;
 }
 
 /* CONTENT */
