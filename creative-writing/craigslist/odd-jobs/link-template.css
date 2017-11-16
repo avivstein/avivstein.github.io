@@ -1,6 +1,6 @@
 .pics{
     width: 25%;
-    margin-top: 50px;
+    margin-bottom: 30px;
     margin-left: 10px;
 }
 
@@ -130,6 +130,7 @@ p{
     padding-left: 10px;
     padding-right: 10px;
     line-height: 1.13;
+    max-width: 1000px;
 }
 
 /* OUTRO */
@@ -205,6 +206,9 @@ h8{
     
     .content p{
         margin: 10px;
-        font-size: 1.5em;
+    }
+    
+    .pics{
+        width: 90%;
     }
 }
