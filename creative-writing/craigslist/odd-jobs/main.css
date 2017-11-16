@@ -52,14 +52,16 @@ li h1, h2, h3, p{
 }
 
 /* SEARCH BAR */
+.search{
+    display: flex;
+    max-width: 1000px;
+}
 
 .searchbar{
-    flex-grow: 1;
     border: 1.5px solid #ccc;
     padding: 12px;
     border-radius: .25em;
     margin-left: 10px;
-    display: inline-block;
     width: 78%;
     background-color: white;
 }
@@ -76,12 +78,11 @@ li h1, h2, h3, p{
 }
 
 .searchbutton{
-    display: inline-block;
     background-color: white;
-    vertical-align: top;
     border: 1.5px solid #ccc;
     padding: 9px 9px 9px;
     border-radius: .25em;
+    margin-left: 10px;
 }
 
 /* CONTENT */
@@ -171,5 +172,7 @@ h10{
 /* Mobile */
 
 @media screen and (max-width:599px){
-    
+    .search{
+        width: 100%;
+    }
 }
