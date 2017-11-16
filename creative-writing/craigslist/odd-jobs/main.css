@@ -123,14 +123,12 @@ li p{
     padding-right: 7px;
     z-index: 999;
     margin-top: 5px;
-}
-
-.logo{
+    
+}.logo{
     position: absolute;
     z-index: -9999999;
     right: 0;
     opacity: .25;
-    width: 30%;
     top: 45px;
 }
 
@@ -168,4 +166,10 @@ h10{
     text-align: center;
     padding-top: 30px;
     margin-bottom: 30px;
+}
+
+/* Mobile */
+
+@media screen and (max-width:599px){
+    
 }
