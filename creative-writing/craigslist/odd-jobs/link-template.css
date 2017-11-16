@@ -200,3 +200,12 @@ h8{
     font-size: 13pt;
 }
 
+/* Mobile */
+
+@media screen and (max-width:599px){
+    
+    .content p{
+        margin: 10px;
+        font-size: 1.5em;
+    }
+}
