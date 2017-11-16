@@ -175,5 +175,6 @@ h10{
 @media screen and (max-width:599px){
     .search{
         width: 100%;
+        margin-right: 10x;
     }
 }
