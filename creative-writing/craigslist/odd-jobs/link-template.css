@@ -1,5 +1,5 @@
 .pics{
-    width: 75%;
+    width: 25%;
     margin-top: 50px;
     margin-left: 10px;
 }
@@ -26,7 +26,6 @@ header p{
 
 .home{
     background-color: #fff;
-
     padding: 3.5px;
     padding-right: 5px;
     border: 1.5px solid #ccc;
