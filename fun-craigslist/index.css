@@ -63,7 +63,7 @@ h2 a:active{
     position: absolute;
     top: 340px;
     left: 450px;
-    resize: none;
+    width: 400px;
 }
 
 .jobs{
