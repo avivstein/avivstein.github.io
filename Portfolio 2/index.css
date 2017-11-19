@@ -8,7 +8,7 @@ header nav ul{
     justify-content: space-between;
 }
 
-.nav-left header nav ul{
+.nav-left header nav{
     max-width: 800px; /*NOT WORKING*/
 }
 
@@ -27,11 +27,16 @@ header nav ul button{
     font-weight: 400;
     font-size: 20pt;
     letter-spacing: .5px;
-    cursor: url(http://www.hop-verliesverwerking.nl/wp-content/uploads/2014/05/hand-woman-gesture.png), auto;
+    cursor: pointer;
 }
 
 .nav-left, .nav-right{
     display: inline-block;
+}
+
+.nav-right{
+    position: absolute;
+    
 }
 
 /* HOVER STATES */
@@ -77,14 +82,14 @@ header nav ul button{
 
 /* SQUARES */
 
-/* SPIN */
-div#spin{
+/* DIRTY NAPKINS */
+.dirty div#spin{
     -ms-transform: rotate(-20deg); /* IE 9 */
     -webkit-transform: rotate(-20deg); /* Safari */
     transform: rotate(-20deg); /* Standard syntax */
 }
 
-.square{
+.square {
     background-color: black;
     padding: 35px;
     font-size: 16px;
@@ -93,7 +98,7 @@ div#spin{
 }
 
 .block{
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
@@ -124,4 +129,17 @@ div#spin{
 .blues{
     width: 50px;
     background-color: aqua;
+}
+
+/* HIWAY */
+.hiway{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.hiway div#spin{
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
 }

@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+    font-family: bebas neue, sans-serif;
+    font-weight: 700;
+}
+
+header{
+    position: absolute;
+}
+
+.keys ul{
+    display: flex;
+}
+
+.keys ul li{
+    margin: 30px;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+.products:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.name ul{
+    display: flex;
+    float: right;
+}
+
+.name ul li{
+    margin: 30px;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+p{
+    display: block;
+    position: relative;
+    top: 200px;
+}
