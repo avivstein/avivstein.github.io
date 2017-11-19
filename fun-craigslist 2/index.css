@@ -1,0 +1,284 @@
+/* ANIMATION */
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+/* CURSOR */
+*{
+    cursor: url(HANDY2.png), auto;
+    /* must be png, 128x128 */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+*:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    cursor: url(HANDY4.png), auto;
+    /*color: yellow;*/
+    color: #551A8B;
+    /*color: white;*/
+    /*color: aqua;*/
+}
+
+a:hover{
+    cursor: url(HANDY2.png), auto;
+    text-decoration: underline;
+    /*color: #551A8B; CL COLOR OPTIONAL */ 
+}
+
+/* HEADER */
+
+header h1{
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    font-size: 180pt;
+    transform: rotate(-15deg);
+    top: 80px;
+    left: 25px;
+    position: absolute;
+}
+
+header h1:hover{
+    cursor: url(HANDY2.png), auto;
+}
+header h1:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+/* CATEGORIES */
+
+.categories{
+    font-family: arial, sans-serif;
+    font-size: 90pt;
+    position:static;
+}
+
+h2 a:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+.forsale{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 340px;
+    left: 450px;
+    width: 400px;
+    
+    -webkit-animation: .7s fadeIn;
+    -moz-animation: .7s fadeIn;
+    animation: .7s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.jobs{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    
+    -webkit-animation: 1s fadeIn;
+    -moz-animation: 1s fadeIn;
+    animation: 1s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.personals{
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    position: absolute;
+    top: 700px;
+    left: 80px;
+    
+    -webkit-animation: 1.6s fadeIn;
+    -moz-animation: 1.6s fadeIn;
+    animation: 1.6s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.gigs{
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(25deg);
+    position: absolute;
+    top: 220px;
+    left: 970px;
+    
+    -webkit-animation: 3.1s fadeIn;
+    -moz-animation: 3.1s fadeIn;
+    animation: 3.1s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.housing{
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 490px;
+    left: 600px;
+    
+    -webkit-animation: 1.3s fadeIn;
+    -moz-animation: 1.3s fadeIn;
+    animation: 1.3s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.discussions{
+    -ms-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 570px;
+    left: 720px;
+    
+    -webkit-animation: 1.9s fadeIn;
+    -moz-animation: 1.9s fadeIn;
+    animation: 1.9s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.search{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 680px;
+    left: 1130px;
+    
+    -webkit-animation: 2.5s fadeIn;
+    -moz-animation: 2.5s fadeIn;
+    animation: 2.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.community{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 70px;
+    left: 1030px;
+    
+    -webkit-animation: 2.8s fadeIn;
+    -moz-animation: 2.8s fadeIn;
+    animation: 2.8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.services{
+    -ms-transform: rotate(27deg);
+    -webkit-transform: rotate(27deg);
+    transform: rotate(27deg);
+    position: absolute;
+    top: 330px;
+    left: 1350px;
+    
+    -webkit-animation: 2.2s fadeIn;
+    -moz-animation: 2.2s fadeIn;
+    animation: 2.2s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.events{
+    -ms-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    position: absolute;
+    top: 510px;
+    left: 1320px;
+    
+    -webkit-animation: 3.4s fadeIn;
+    -moz-animation: 3.4s fadeIn;
+    animation: 3.4s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.acct{
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 680px;
+    left: 1570px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 3.7s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
