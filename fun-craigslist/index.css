@@ -13,7 +13,7 @@ a{
 
 a:active{
     cursor: url(HANDY4.png), auto;
-    color: yellow;
+    /*color: yellow;*/
 }
 
 a:hover{
@@ -42,6 +42,10 @@ header h1:active{
 .categories{
     font-family: arial, sans-serif;
     font-size: 90pt;
+}
+
+h2 a:active{
+    cursor: url(HANDY4.png), auto;
 }
 
 .forsale{
