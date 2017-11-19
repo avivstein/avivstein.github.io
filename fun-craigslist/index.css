@@ -13,7 +13,7 @@ a{
 
 a:active{
     cursor: url(HANDY4.png), auto;
-    color: aqua;
+    color: yellow;
 }
 
 a:hover{
@@ -113,7 +113,7 @@ header h1:active{
     transform: rotate(10deg);
     position: absolute;
     top: 70px;
-    right: 200px;
+    right: 300px;
 }
 
 .services{
