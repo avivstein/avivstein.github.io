@@ -14,7 +14,8 @@ a{
 a:active{
     cursor: url(HANDY4.png), auto;
     /*color: yellow;*/
-    color: #551A8B;
+    /*color: #551A8B;*/
+    color: white;
 }
 
 a:hover{
