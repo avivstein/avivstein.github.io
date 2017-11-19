@@ -1,6 +1,10 @@
 *{
     cursor: url(HANDY2.png), auto;
     /* must be png, 128x128 */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 *:active{
@@ -14,8 +18,9 @@ a{
 a:active{
     cursor: url(HANDY4.png), auto;
     /*color: yellow;*/
-    /*color: #551A8B;*/
-    color: white;
+    color: #551A8B;
+    /*color: white;*/
+    /*color: aqua;*/
 }
 
 a:hover{
