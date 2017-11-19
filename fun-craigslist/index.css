@@ -13,6 +13,7 @@ a{
 
 a:active{
     cursor: url(HANDY4.png), auto;
+    color: aqua;
 }
 
 a:hover{
@@ -26,7 +27,8 @@ header h1{
     color: rebeccapurple;
     font-size: 180pt;
     transform: rotate(-15deg);
-    top: 70px;
+    top: 80px;
+    left: 25px;
     position: absolute;
 }
 
@@ -47,8 +49,8 @@ header h1:active{
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
     position: absolute;
-    top: 320px;
-    left: 370px;
+    top: 340px;
+    left: 450px;
 }
 
 .jobs{
@@ -56,8 +58,8 @@ header h1:active{
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
     position: absolute;
-    top: 470px;
-    left: 180px;
+    top: 500px;
+    left: 250px;
 }
 
 .personals{
@@ -72,10 +74,10 @@ header h1:active{
 .gigs{
     -ms-transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
+    transform: rotate(25deg);
     position: absolute;
-    top: 230px;
-    right: 780px;
+    top: 220px;
+    right: 720px;
 }
 
 .housing{
@@ -83,8 +85,8 @@ header h1:active{
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
     position: absolute;
-    top: 500px;
-    left: 430px;
+    top: 490px;
+    left: 600px;
 }
 
 .discussions{
@@ -93,7 +95,7 @@ header h1:active{
     transform: rotate(-40deg);
     position: absolute;
     top: 570px;
-    left: 640px;
+    right: 560px;
 }
 
 .search{
@@ -102,7 +104,7 @@ header h1:active{
     transform: rotate(-10deg);
     position: absolute;
     bottom: 150px;
-    right: 530px;
+    right: 400px;
 }
 
 .community{
@@ -111,7 +113,7 @@ header h1:active{
     transform: rotate(10deg);
     position: absolute;
     top: 70px;
-    right: 250px;
+    right: 200px;
 }
 
 .services{
@@ -119,8 +121,8 @@ header h1:active{
     -webkit-transform: rotate(27deg);
     transform: rotate(27deg);
     position: absolute;
-    top: 320px;
-    right: 100px;
+    top: 330px;
+    right: 150px;
 }
 
 .events{
@@ -129,7 +131,7 @@ header h1:active{
     transform: rotate(6deg);
     position: absolute;
     bottom: 350px;
-    right: 370px;
+    right: 260px;
 }
 
 .acct{
