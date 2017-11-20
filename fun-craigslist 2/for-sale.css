@@ -1,0 +1,99 @@
+/* ANIMATION */
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+/* CURSOR */
+*{
+    cursor: url(HANDY2.png), auto;
+    /* must be png, 128x128 */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+*:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    cursor: url(HANDY4.png), auto;
+    /*color: yellow;*/
+    color: #551A8B;
+    /*color: white;*/
+    /*color: aqua;*/
+}
+
+a:hover{
+    cursor: url(HANDY2.png), auto;
+    text-decoration: underline;
+    /*color: #551A8B; CL COLOR OPTIONAL */ 
+}
+
+/* HEADER */
+
+header h1{
+    font-family: "Times New Roman";
+    color: #551A8B;
+    font-size: 180pt;
+    transform: rotate(-15deg);
+    top: 80px;
+    left: 25px;
+    position: absolute;
+}
+
+header h1:hover{
+    cursor: url(HANDY2.png), auto;
+}
+header h1:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+/* CATEGORIES */
+
+.categories{
+    font-family: arial, sans-serif;
+    font-size: 90pt;
+}
+
+h2 a:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+.forsale{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 340px;
+    left: 450px;
+    width: 400px;
+    
+    -webkit-animation: .7s fadeIn;
+    -moz-animation: .7s fadeIn;
+    animation: .7s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.image{
+    width: 80%;
+    opacity: .2;
+    z-index: 1;
+}
