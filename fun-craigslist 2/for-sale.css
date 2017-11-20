@@ -24,6 +24,10 @@
     cursor: url(HANDY4.png), auto;
 }
 
+h2 a:visited{
+    color: #0000EE;
+}
+
 a{
     text-decoration: none;
 }
@@ -63,9 +67,10 @@ header h1:active{
 
 /* CATEGORIES */
 
-.categories{
+.categories h2{
     font-family: arial, sans-serif;
     font-size: 90pt;
+    text-decoration: underline;
 }
 
 h2 a:active{

@@ -28,6 +28,10 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: #0000EE;
+}
+
 a:active{
     cursor: url(HANDY4.png), auto;
     /*color: yellow;*/
