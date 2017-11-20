@@ -72,6 +72,11 @@ h2 a:active{
     cursor: url(HANDY4.png), auto;
 }
 
+.subcats{
+    font-family: arial, sans-serif;
+    font-size: 35pt;
+}
+
 .forsale{
     -ms-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
@@ -80,10 +85,209 @@ h2 a:active{
     top: 340px;
     left: 450px;
     width: 400px;
+}
+
+.all{
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    position: absolute;
+    top: 420px;
+    left: 280px;
     
-    -webkit-animation: .7s fadeIn;
-    -moz-animation: .7s fadeIn;
-    animation: .7s fadeIn;
+    -webkit-animation: 1.4s fadeIn;
+    -moz-animation: 1.4s fadeIn;
+    animation: 1.4s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.antiques{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 480px;
+    left: 240px;
+    
+    -webkit-animation: 1.5s fadeIn;
+    -moz-animation: 1.5s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.appliances{
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    position: absolute;
+    top: 520px;
+    left: 170px;
+    
+    -webkit-animation: 1.6s fadeIn;
+    -moz-animation: 1.6s fadeIn;
+    animation: 1.6s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.arts{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: absolute;
+    top: 570px;
+    left: 170px;
+    
+    -webkit-animation: 1.7s fadeIn;
+    -moz-animation: 1.7s fadeIn;
+    animation: 1.7s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.atv{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+    position: absolute;
+    top: 620px;
+    left: 200px;
+    
+    -webkit-animation: 1.8s fadeIn;
+    -moz-animation: 1.8s fadeIn;
+    animation: 1.8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.auto{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+    position: absolute;
+    top: 660px;
+    left: 170px;
+    
+    -webkit-animation: 1.9s fadeIn;
+    -moz-animation: 1.9s fadeIn;
+    animation: 1.9s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.baby{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 700px;
+    left: 120px;
+    
+    -webkit-animation: 2s fadeIn;
+    -moz-animation: 2s fadeIn;
+    animation: 2s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.barter{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 750px;
+    left: 230px;
+    
+    -webkit-animation: 2.1s fadeIn;
+    -moz-animation: 2.1s fadeIn;
+    animation: 2.1s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.beauty{
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    position: absolute;
+    top: 800px;
+    left: 90px;
+    
+    -webkit-animation: 2.2s fadeIn;
+    -moz-animation: 2.2s fadeIn;
+    animation: 2.2s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.bikes{
+    -ms-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    position: absolute;
+    top: 840px;
+    left: 160px;
+    
+    -webkit-animation: 2.3s fadeIn;
+    -moz-animation: 2.3s fadeIn;
+    animation: 2.3s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.boats{
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    position: absolute;
+    top: 875px;
+    left: 110px;
+    
+    -webkit-animation: 2.4s fadeIn;
+    -moz-animation: 2.4s fadeIn;
+    animation: 2.4s fadeIn;
  
     -webkit-animation-fill-mode: forwards; 
     -moz-animation-fill-mode: forwards;
@@ -93,7 +297,9 @@ h2 a:active{
 }
 
 .image{
+    position: absolute;
     width: 80%;
     opacity: .2;
-    z-index: 1;
+    z-index: -10000;
+    top: 0px;
 }
