@@ -1,0 +1,130 @@
+/* ANIMATION */
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+/* CURSOR */
+*{
+    cursor: url(HANDY2.png), auto;
+    /* must be png, 128x128 */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+*:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+h2 a:visited{
+    color: #0000EE;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    cursor: url(HANDY4.png), auto;
+    /*color: yellow;*/
+    color: #551A8B;
+    /*color: white;*/
+    /*color: aqua;*/
+}
+
+a:hover{
+    cursor: url(HANDY2.png), auto;
+    text-decoration: underline;
+    /*color: #551A8B; CL COLOR OPTIONAL */ 
+}
+
+/* HEADER */
+
+header h1{
+    font-family: "Times New Roman";
+    color: #551A8B;
+    font-size: 180pt;
+    transform: rotate(-15deg);
+    top: 80px;
+    left: 25px;
+    position: absolute;
+}
+
+header h1:hover{
+    cursor: url(HANDY2.png), auto;
+}
+header h1:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+/* CATEGORIES */
+
+.categories h2{
+    font-family: arial, sans-serif;
+    font-size: 90pt;
+    text-decoration: underline;
+}
+
+h2 a:active{
+    cursor: url(HANDY4.png), auto;
+}
+
+.subcats{
+    font-family: arial, sans-serif;
+    font-size: 35pt;
+}
+
+.forsale{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 340px;
+    left: 450px;
+    width: 400px;
+}
+
+h4 a:visited{
+    color: #0000EE;
+}
+
+.back{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    font-size: 45pt;
+    text-decoration: none;
+    
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    
+    -webkit-animation: 5.1s fadeIn;
+    -moz-animation: 5.1s fadeIn;
+    animation: 5.1s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+
+.personals{
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    position: absolute;
+    top: 700px;
+    left: 80px;

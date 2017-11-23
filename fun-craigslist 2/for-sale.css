@@ -92,6 +92,35 @@ h2 a:active{
     width: 400px;
 }
 
+h4 a:visited{
+    color: #0000EE;
+}
+
+.back{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    font-size: 45pt;
+    text-decoration: none;
+    
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    
+    -webkit-animation: 5.3s fadeIn;
+    -moz-animation: 5.3s fadeIn;
+    animation: 5.3s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+
 /* COLUMN 1 */
 
 .all{
