@@ -120,6 +120,7 @@ h4 a:visited{
     visibility: hidden;
 }
 
+/* ITEMS */
 
 .personals{
     -ms-transform: rotate(20deg);
@@ -128,3 +129,76 @@ h4 a:visited{
     position: absolute;
     top: 700px;
     left: 80px;
+}
+    
+.platonic{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    font-size: 35pt;
+    text-decoration: none;
+    
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    position: absolute;
+    top: 540px;
+    left: 260px;
+    
+    -webkit-animation: .5s fadeIn;
+    -moz-animation: .5s fadeIn;
+    animation: .5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.w4w{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    font-size: 35pt;
+    text-decoration: none;
+    
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    position: absolute;
+    top: 440px;
+    left: 560px;
+    
+    -webkit-animation: .6s fadeIn;
+    -moz-animation: .6s fadeIn;
+    animation: .6s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.w4m{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    font-size: 35pt;
+    text-decoration: none;
+    
+    -ms-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+    position: absolute;
+    top: 530px;
+    left: 650px;
+    
+    -webkit-animation: .5s fadeIn;
+    -moz-animation: .5s fadeIn;
+    animation: .5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
