@@ -12,10 +12,17 @@ nav ul li a{
     color: white;
     transition: .1s ease-in-out;
 }
+
+/*
 nav ul li a:hover{
     background-color: white;
     color: black;
-    padding: 10px 10px 10px 10px;
+    padding: 12.5px 20px 12.5px 20px;
+}
+*/
+
+nav ul li a:hover{
+    padding-top: 40px;
 }
 
 nav{
@@ -68,7 +75,7 @@ sidenav{
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 25px;
     background-color: black;
     
 }
@@ -83,6 +90,7 @@ sidenav{
     border-left: 0px solid black;
     padding-top: 50px;
     height: 10px;
+    border-left: 7px solid black;
     border-bottom: 10px solid black;
     border-top: 62.5px solid black;
 }
