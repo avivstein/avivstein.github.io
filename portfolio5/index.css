@@ -26,6 +26,26 @@ nav ul li a:active{
     padding: 12.5px 20px 12.5px 20px;
 }
 
+/* V 2 
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    color: white;
+    transition: .2s ease-in-out;
+    opacity: .2;
+}
+
+
+nav ul li a:hover{
+    opacity: 1;
+}
+
+nav ul li a:active{
+    opacity: 1;
+}
+*/
 /*
 nav ul li a:hover{
     background-color: white;
@@ -44,6 +64,7 @@ nav ul li a:hover{
 
 nav{
     background-color: black;
+    padding: 5px 0px;
 }
 
 nav ul li{
@@ -109,7 +130,7 @@ sidenav{
     height: 10px;
     border-left: 7px solid black;
     border-bottom: 10px solid black;
-    border-top: 62.5px solid black;
+    border-top: 74px solid black;
 }
     
 .border div{
