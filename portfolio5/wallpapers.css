@@ -5,7 +5,11 @@ header{
 
 body{
     background-color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+
+
 
 /* NAVIGATION */
 
@@ -25,18 +29,12 @@ nav ul li a:hover{
     padding: 12.5px 20px 12.5px 20px;
 }
 
-nav ul li a:active{
-    background-color: white;
-    color: black;
-    padding: 12.5px 20px 12.5px 20px;
-}
-
 nav{
     background-color: black;
     padding: 5px 0px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding: 20px 0px 20px 25px;
 }
@@ -46,65 +44,38 @@ nav ul li{
     color: white;
 }
 
-.img-container{
-    width: 100%;
+.wallpapers a{
+    background-color: white;
+    color: black;
+    padding: 12.5px 20px 12.5px 20px;
 }
 
-.images img{
-    width: 50%;
-}
-
-sidenav{
-    visibility: hidden;   
-}
-
-.c-left{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 20px 25px 20px 0;
-    border-color: transparent #000000 transparent transparent;
-    position: fixed;
-    z-index: 999;
-    top: 50%;
-    left: 40px;
-    margin: 10px;
-}
-
-.c-right{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 20px 0px 20px 25px;
-    border-color: transparent  transparent transparent #000000;
-    position: fixed;
-    z-index: 999;
-    top: 50%;
-    right: 20px;
-    margin: 10px;
-}
+/* CUSTOM SCROLLBAR */
 
 ::-webkit-scrollbar {
     width: 25px;
     background-color: black;
-    
 }
 
 ::-webkit-scrollbar-track{
     background: black;
-    background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: white;
-    border-left: 0px solid black;
     padding-top: 50px;
     height: 10px;
     border-left: 7px solid black;
     border-bottom: 10px solid black;
     border-top: 74px solid black;
 }
-    
+
+::-webkit-scrollbar-corner{
+    background-color: black;
+}
+
+/* LEFT BORDER */
+
 .border div{
     background-color: black;
     z-index: 99;
@@ -117,6 +88,37 @@ sidenav{
     bottom: 0;
     width: 25px;
 }
+
+/* CONTENT */
+
+
+
+.container{
+    position: relative;
+    top: 75px;
+    left: 25px;
+    max-width: 2000px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.idk{
+    background-color: aqua;
+}
+
+.grid .idk{
+    width: 33%;
+    padding: 0px 0px 7px 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+/* FOOTER */
 
 footer{
     display: block;
