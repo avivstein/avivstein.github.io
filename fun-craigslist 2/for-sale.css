@@ -123,25 +123,6 @@ h4 a:visited{
 
 /* COLUMN 1 */
 
-.all{
-    -ms-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
-    position: absolute;
-    top: 420px;
-    left: 280px;
-    
-    -webkit-animation: .7s fadeIn;
-    -moz-animation: .7s fadeIn;
-    animation: .7s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
 .antiques{
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
