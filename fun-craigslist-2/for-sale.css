@@ -760,31 +760,12 @@ h4 a:visited{
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
     position: absolute;
-    top: 240px;
-    left: 1390px;
+    top: 270px;
+    left: 1300px;
     
     -webkit-animation: 4.1s fadeIn;
     -moz-animation: 4.1s fadeIn;
     animation: 4.1s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.socks{
-    -ms-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-    position: absolute;
-    top: 280px;
-    left: 1360px;
-    
-    -webkit-animation: 4.2s fadeIn;
-    -moz-animation: 4.2s fadeIn;
-    animation: 4.2s fadeIn;
  
     -webkit-animation-fill-mode: forwards; 
     -moz-animation-fill-mode: forwards;
@@ -798,8 +779,8 @@ h4 a:visited{
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
     position: absolute;
-    top: 330px;
-    left: 1300px;
+    top: 320px;
+    left: 1240px;
     
     -webkit-animation: 4.3s fadeIn;
     -moz-animation: 4.3s fadeIn;
@@ -817,7 +798,7 @@ h4 a:visited{
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
     position: absolute;
-    top: 380px;
+    top: 350px;
     left: 1340px;
     
     -webkit-animation: 4.4s fadeIn;
@@ -836,7 +817,7 @@ h4 a:visited{
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
     position: absolute;
-    top: 410px;
+    top: 415px;
     left: 1325px;
     
     -webkit-animation: 4.5s fadeIn;
@@ -851,12 +832,12 @@ h4 a:visited{
 }
 
 .vegetables{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
     position: absolute;
-    top: 450px;
-    left: 1435px;
+    top: 440px;
+    left: 1400px;
     
     -webkit-animation: 4.6s fadeIn;
     -moz-animation: 4.6s fadeIn;
@@ -870,11 +851,11 @@ h4 a:visited{
 }
 
 .wanted{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -ms-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
     position: absolute;
-    top: 450px;
+    top: 490px;
     left: 1435px;
     
     -webkit-animation: 4.6s fadeIn;
@@ -889,12 +870,12 @@ h4 a:visited{
 }
 
 .weapons{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
     position: absolute;
-    top: 450px;
-    left: 1435px;
+    top: 525px;
+    left: 1360px;
     
     -webkit-animation: 4.6s fadeIn;
     -moz-animation: 4.6s fadeIn;
@@ -908,12 +889,12 @@ h4 a:visited{
 }
 
 .wisdom{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
     position: absolute;
-    top: 450px;
-    left: 1435px;
+    top: 590px;
+    left: 1430px;
     
     -webkit-animation: 4.6s fadeIn;
     -moz-animation: 4.6s fadeIn;
