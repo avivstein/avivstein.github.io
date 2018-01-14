@@ -1,0 +1,84 @@
+
+
+header nav ul{
+    margin: 40px;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    letter-spacing: .5px;
+}
+
+header nav ul li:not(.aviv){
+    padding-right: 40px;
+}
+
+.products{
+    color: deepskyblue;
+}
+
+.experiences{
+    color: deeppink;
+}
+
+.graphics{
+    color: blueviolet;
+}
+
+.aviv{
+    float: right;
+}
+
+/* SQUARES */
+
+/* SPIN */
+div#spin{
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg); /* Standard syntax */
+}
+
+.square{
+    background-color: black;
+    padding: 35px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.block{
+    position: relative;
+    display: inline-block;
+}
+
+.popout{
+    display: none;
+    position: relative;
+    float: right;
+    background-color: deepskyblue;
+    min-width: 160px;
+    margin-left: 10px;
+    box-shadow: 10px 10px #eee;
+}
+
+.popout h1{
+    color: white;
+    padding: 15px;
+    cursor: default;
+    display: block;
+    font-family: bebas-neue;
+    letter-spacing:.5px;
+    font-size: 40px;
+}
+
+.block:hover .popout{
+    display: block;
+}
+
+.blues{
+    width: 50px;
+    background-color: aqua;
+}
