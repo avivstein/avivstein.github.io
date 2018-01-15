@@ -1,0 +1,37 @@
+body{
+    background-color: bl
+}
+
+header{
+    margin: 50px;
+    font-size: 3em;
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+}
+
+a{
+    font-size: 2em;
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+    opacity: .25;
+    transition: .25s ease-in-out;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+/* SLIDE RIGHT 
+a:hover{
+    margin-left: 55px;
+}
+*/
+ul li{
+    margin-bottom: 25px;
+}
+
+nav{
+    margin: 50px;
+}

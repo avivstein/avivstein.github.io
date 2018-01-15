@@ -1,0 +1,48 @@
+a{
+    top: 75px;
+    left: 50px;
+    font-size: 10em;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: .10;
+    transition: .75s ease-in-out;
+    position: relative;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+a:active{
+    opacity: 1;
+}
+
+a:visited{
+    
+}
+/*
+.thewave a:hover{
+    color: deepskyblue;
+    opacity: 1;
+}
+
+
+a:hover{
+    left: 65px;
+}
+*/
+ul li{
+    padding-bottom: 25px;
+}
+
+.aviv{
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 240px;
+    left: -480px;
+    width: 1000px;
+}
