@@ -1,0 +1,59 @@
+/* POSITION */
+.name{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 180px;
+    left: -70px;
+}
+
+nav{
+    top: 410px;
+    left: 57px;
+    width: 100px;
+    position: relative;
+}
+
+/* STYLE */
+
+body{
+    background-color: black;
+    border-top: 10px solid black;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 4.5em;
+    line-height: 1.5em;
+    opacity: .1;
+    transition: .15s ease-in-out;
+}
+
+nav ul li a:hover{
+    opacity: 1;
+}
+
+.name ul li a{
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: black;
+    height: 1000px;
+    width: 150px;
+}
+
+.images img{
+    position: absolute;
+    width: 91%;
+    right: 0px;
+    top: 0px;
+}

@@ -1,0 +1,60 @@
+/* POSITION */
+.name{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 150px;
+    left: -40px;
+}
+
+nav{
+    top: 310px;
+    left: 57px;
+    width: 100px;
+    position: relative;
+}
+
+/* STYLE */
+
+body{
+    background-color: black;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 3em;
+    line-height: 1.95em;
+    opacity: .15;
+    transition: .15s ease-in-out;
+}
+
+nav ul li a:hover{
+    opacity: 1;
+}
+
+.name ul li a{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: black;
+    height: 1000px;
+    width: 150px;
+}
+
+.images img{
+    position: absolute;
+    max-width: 100%; 
+display:block; 
+height: auto;
+    z-index: -1;
+    top: 0px;
+}
