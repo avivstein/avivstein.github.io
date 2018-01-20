@@ -94,15 +94,14 @@ footer{
 
 ::-webkit-scrollbar {
     width: 5px;
-    background-color: black;
+    background-color: #0a246a;
 }
 
 ::-webkit-scrollbar-track{
-    background: black;
+    background: #404040;
     background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-bottom: 3px solid black;
+    background-color: #808080;
 }
