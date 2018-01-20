@@ -8,9 +8,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-    <link rel="stylesheet" href="dynamite.css">
+    <link rel="stylesheet" href="hiway.css">
     
 </head>
     
@@ -38,19 +36,45 @@
     
     <div class="images">
         <div class="container">
-            <img src="dynamite/dynamite-1.jpg">
-            <img src="dynamite/dynamite-2.jpg">
-            <img src="dynamite/dynamite-3.jpg">
-            <img src="dynamite/dynamite-4.jpg">
-            <img src="dynamite/dynamite-5.jpg">
+            <img src="hiway/hiway-1.jpg">
+            <img src="hiway/hiway-2.jpg">
+            <img src="hiway/hiway-3.jpg">
+            <img src="hiway/hiway-4.jpg">
+            <img src="hiway/hiway-5.jpg">
+            <img src="hiway/hiway-6.jpg">
+            <img src="hiway/hiway-7.jpg">
+            <img src="hiway/hiway-8.jpg">
+            <img src="hiway/hiway-9.jpg">
         </div>
     </div>
     
-    <!--<footer>
+    <footer>
         <div class="process">
             <button>see the process</button>
         </div>
-    </footer>-->
+        <div class="blaq">
+            <img src="dynamite/dynamite-1.jpg">
+            <img src="dynamite/dynamite-2.jpg">
+            <img src="dynamite/dynamite-3.jpg">
+        </div>
+    </footer>
+    
+    <script type="text/javascript">
+	$(document).ready(function(){
+		$('.footer').addClass("hidden");
+
+		$('.footer').click(function() {
+			var $this = $(this);
+
+			if ($this.hasClass("hidden")) {
+				$(this).removeClass("hidden").addClass("visible");
+
+			} else {
+				$(this).removeClass("visible").addClass("hidden");
+			}
+		});
+	});
+</script>
     
 </body>
 </html>
