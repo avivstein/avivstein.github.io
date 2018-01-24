@@ -24,11 +24,10 @@ a{
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
-    
 }
 
 nav ul li a{
-    color: black;
+    color: white;
     font-size: 2.5em;
     line-height: 1.85em;
     opacity: .2;
@@ -40,7 +39,7 @@ nav ul li a:hover{
 }
 
 .name ul li a{
-    color: black;
+    color: white;
     font-size: 2.75em;
     font-weight: bold;
     opacity: 
@@ -54,4 +53,27 @@ nav ul li a:hover{
 
 .images .container{
     line-height: 0;
+}
+
+.contact h5{
+    position: relative;
+    transition: .2s ease-in-out;
+    margin-left: 1300px;
+}
+
+h5:hover{
+    opacity: 1;
+}
+
+h5{
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: right;
+    opacity: .3;
+    top: 30px;
+    right: 40px;
+
 }
