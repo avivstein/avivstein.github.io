@@ -51,11 +51,23 @@ a:hover{
 header h1{
     font-family: "Times New Roman";
     color: #551A8B;
-    font-size: 180pt;
+    font-size: 140pt;
     transform: rotate(-15deg);
-    top: 80px;
-    left: 25px;
+    top: 50px;
+    left: 5px;
     position: absolute;
+    letter-spacing: -10px;
+}
+
+header h5{
+    font-family: "Times New Roman";
+    font-size: 70pt;
+    transform: rotate(-15deg);
+    top: 32px;
+    left: 590px;
+    position: absolute;
+    letter-spacing: -5px;
+    color: black;
 }
 
 header h1:hover{
@@ -69,8 +81,9 @@ header h1:active{
 
 .categories{
     font-family: arial, sans-serif;
-    font-size: 90pt;
+    font-size: 70pt;
     position:static;
+    letter-spacing: -2px;
 }
 
 h2 a:active{
@@ -78,12 +91,12 @@ h2 a:active{
 }
 
 .forsale{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
     position: absolute;
-    top: 340px;
-    left: 450px;
+    top: 320px;
+    left: 340px;
     width: 400px;
     
     -webkit-animation: .7s fadeIn;
@@ -98,12 +111,12 @@ h2 a:active{
 }
 
 .jobs{
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
     position: absolute;
-    top: 500px;
-    left: 250px;
+    top: 470px;
+    left: 700px;
     
     -webkit-animation: 1s fadeIn;
     -moz-animation: 1s fadeIn;
@@ -117,12 +130,12 @@ h2 a:active{
 }
 
 .personals{
-    -ms-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
     position: absolute;
-    top: 700px;
-    left: 80px;
+    top: 490px;
+    left: 70px;
     
     -webkit-animation: 1.6s fadeIn;
     -moz-animation: 1.6s fadeIn;
@@ -135,32 +148,13 @@ h2 a:active{
     visibility: hidden;
 }
 
-.gigs{
-    -ms-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    transform: rotate(25deg);
-    position: absolute;
-    top: 220px;
-    left: 970px;
-    
-    -webkit-animation: 3.1s fadeIn;
-    -moz-animation: 3.1s fadeIn;
-    animation: 1s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
 .housing{
-    -ms-transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     position: absolute;
-    top: 490px;
-    left: 600px;
+    top: 270px;
+    left: 1000px;
     
     -webkit-animation: 1.3s fadeIn;
     -moz-animation: 1.3s fadeIn;
@@ -173,13 +167,13 @@ h2 a:active{
     visibility: hidden;
 }
 
-.discussions{
+.favors{
     -ms-transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
     transform: rotate(-40deg);
     position: absolute;
-    top: 570px;
-    left: 720px;
+    top: 140px;
+    left: 860px;
     
     -webkit-animation: 1.9s fadeIn;
     -moz-animation: 1.9s fadeIn;
@@ -192,32 +186,13 @@ h2 a:active{
     visibility: hidden;
 }
 
-.search{
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    position: absolute;
-    top: 680px;
-    left: 1130px;
-    
-    -webkit-animation: 2.5s fadeIn;
-    -moz-animation: 2.5s fadeIn;
-    animation: 1.4s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
 .community{
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
+    -ms-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
     position: absolute;
-    top: 70px;
-    left: 1030px;
+    top: 300px;
+    left: 610px;
     
     -webkit-animation: 2.8s fadeIn;
     -moz-animation: 2.8s fadeIn;
@@ -231,12 +206,12 @@ h2 a:active{
 }
 
 .services{
-    -ms-transform: rotate(27deg);
-    -webkit-transform: rotate(27deg);
-    transform: rotate(27deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
     position: absolute;
-    top: 330px;
-    left: 1350px;
+    top: 570px;
+    left: 360px;
     
     -webkit-animation: 2.2s fadeIn;
     -moz-animation: 2.2s fadeIn;
@@ -249,13 +224,13 @@ h2 a:active{
     visibility: hidden;
 }
 
-.events{
-    -ms-transform: rotate(6deg);
+.monthly{
+    -ms-transform: rotate(-60deg);
     -webkit-transform: rotate(6deg);
-    transform: rotate(6deg);
+    transform: rotate(-30deg);
     position: absolute;
-    top: 510px;
-    left: 1320px;
+    top: 450px;
+    left: 940px;
     
     -webkit-animation: 3.4s fadeIn;
     -moz-animation: 3.4s fadeIn;
@@ -269,12 +244,13 @@ h2 a:active{
 }
 
 .post{
-    -ms-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
     position: absolute;
     top: 20px;
-    left: 1670px;
+    left: 1400px;
+    font-size: 50%;
     
     -webkit-animation: 3.7s fadeIn;
     -moz-animation: 3.7s fadeIn;
@@ -287,6 +263,127 @@ h2 a:active{
     visibility: hidden;
 }
 
+/* FOOTER */
+
+footer h4{
+    font-family: arial, sans-serif;
+    color: #0000EE;
+    position:static;
+}
+
+.copyright{
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 750px;
+    left: 430px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.about{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 760px;
+    left: 1100px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.guide{
+    -ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    position: absolute;
+    top: 760px;
+    left: 710px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.suggest{
+    -ms-transform: rotate(14deg);
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+    position: absolute;
+    top: 750px;
+    left: 840px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.monthlies{
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 750px;
+    left: 970px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.disclaimer{
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(3deg);
+    position: absolute;
+    top: 750px;
+    left: 580px;
+    
+    -webkit-animation: 3.7s fadeIn;
+    -moz-animation: 3.7s fadeIn;
+    animation: 1.5s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
 
 /* RESPONSIVE STYLES */
 
