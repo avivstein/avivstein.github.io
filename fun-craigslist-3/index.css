@@ -26,6 +26,7 @@
 
 a{
     text-decoration: none;
+    transition: .3s ease-in-out;
 }
 
 a:visited{
@@ -42,7 +43,8 @@ a:active{
 
 a:hover{
     cursor: url(HANDY2.png), auto;
-    text-decoration: underline;
+    font-size: 120%;
+    text-shadow: 10px 10px 3px #aaa;
     /*color: #551A8B; CL COLOR OPTIONAL */ 
 }
 
@@ -84,7 +86,7 @@ h2 a:active{
     position: absolute;
     top: 340px;
     left: 450px;
-    width: 400px;
+    width: 600px;
     
     -webkit-animation: .7s fadeIn;
     -moz-animation: .7s fadeIn;

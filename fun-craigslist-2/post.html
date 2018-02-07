@@ -15,7 +15,16 @@
         
          <h3 class="alcohol"><a href="for-sale/alcohol.html">alcohol</a></h3>
         
-        <form action="/action_page.php">
+       <form class="dropdown" action="/action_page.php">
+        <select name="categories">
+        <option value="choose a category" selected="selected">Choose a category</option>
+        <option value="for sale">For Sale</option>
+        <option value="jobs">Jobs</option>
+        <option value="housing">Housing</option>
+        </select>
+        <br><br>
+        <!--<input type="submit">-->
+        </form>
             
         <div class="labels">
             <div class="l-title">posting title</div>
@@ -32,7 +41,6 @@
             <textarea class="i-body" name="body" cols="50" rows="15"></textarea>
             <input type="submit" value="submit">
         </div>
-        </form>
         </div>
     </div>
 </body>
