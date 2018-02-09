@@ -26,7 +26,6 @@
 
 a{
     text-decoration: none;
-    
 }
 
 a:visited{
@@ -49,7 +48,7 @@ a:hover{
 
 /* HEADER */
 
-header .home{
+header h1{
     font-family: "Times New Roman";
     color: #551A8B;
     font-size: 140pt;
@@ -58,18 +57,6 @@ header .home{
     left: 5px;
     position: absolute;
     letter-spacing: -10px;
-}
-
-.home a{
-    font-family: "Times New Roman";
-    color: #551A8B;
-    text-decoration: none;
-    
-}
-
-header h1:hover{
-    transform: rotate(-20deg);
-    
 }
 
 header h5{
@@ -81,13 +68,6 @@ header h5{
     position: absolute;
     letter-spacing: -5px;
     color: black;
-    opacity: .2;
-}
-
-header h5:hover{
-    opacity: 1;
-    transform: rotate(-5deg);
-    left: 600px;
 }
 
 header h1:hover{
@@ -296,7 +276,7 @@ footer h4{
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
     position: absolute;
-    top: 730px;
+    top: 750px;
     left: 430px;
     
     -webkit-animation: 3.7s fadeIn;
@@ -315,7 +295,7 @@ footer h4{
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
     position: absolute;
-    top: 730px;
+    top: 760px;
     left: 1100px;
     
     -webkit-animation: 3.7s fadeIn;
@@ -334,7 +314,7 @@ footer h4{
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg);
     position: absolute;
-    top: 730px;
+    top: 760px;
     left: 710px;
     
     -webkit-animation: 3.7s fadeIn;
@@ -353,7 +333,7 @@ footer h4{
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
     position: absolute;
-    top: 730px;
+    top: 750px;
     left: 840px;
     
     -webkit-animation: 3.7s fadeIn;
@@ -372,7 +352,7 @@ footer h4{
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
     position: absolute;
-    top: 730px;
+    top: 750px;
     left: 970px;
     
     -webkit-animation: 3.7s fadeIn;
@@ -391,7 +371,7 @@ footer h4{
     -webkit-transform: rotate(-20deg);
     transform: rotate(3deg);
     position: absolute;
-    top: 730px;
+    top: 750px;
     left: 580px;
     
     -webkit-animation: 3.7s fadeIn;
