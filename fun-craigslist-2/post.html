@@ -35,12 +35,18 @@
         </div>
             
         <div class="boxes">
-            <input class="i-title" size="48" maxlength="64" placeholder="posting title" onfocus="this.placeholder=''" onblur="this.placeholder='posting title'">
-            <input class="i-price" size="4" maxlength="8" placeholder="price" onfocus="this.placeholder=''" onblur="this.placeholder='price'">
-            <input class="i-user" size="12" maxlength="28"placeholder="username" onfocus="this.placeholder=''" onblur="this.placeholder='username'">
-            <textarea class="i-body" name="body" cols="50" rows="15" placeholder="description" onfocus="this.placeholder=''" onblur="this.placeholder='description'"></textarea>
+            <input class="i-title" size="48" maxlength="64" placeholder="posting title">
+            <input class="i-price" size="4" maxlength="8" placeholder="price" >
+            <input class="i-user" size="12" maxlength="28"placeholder="username" >
+            <textarea class="i-body" name="body" cols="50" rows="15" placeholder="description"></textarea>
             <input type="submit" value="submit">
         </div>
+        
+        <form class="bubbles" action="/action_page.php">
+        <input class="forsalebubble" type="radio" value="for sale" name="category">for sale<br>
+        <input class="jobsbubble" type="radio" value="jobs" name="category">jobs    
+        </form>
+        
         </div>
     </div>
 </body>

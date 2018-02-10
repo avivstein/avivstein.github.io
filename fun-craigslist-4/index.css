@@ -26,6 +26,7 @@
 
 a{
     text-decoration: none;
+    
 }
 
 a:visited{
@@ -42,7 +43,7 @@ a:active{
 
 a:hover{
     cursor: url(HANDY2.png), auto;
-    text-decoration: underline;
+   
     /*color: #551A8B; CL COLOR OPTIONAL */ 
 }
 
@@ -68,6 +69,11 @@ header h5{
     position: absolute;
     letter-spacing: -5px;
     color: black;
+    opacity: .2;
+}
+
+header h5:hover{
+    opacity: 1;
 }
 
 header h1:hover{
@@ -84,6 +90,7 @@ header h1:active{
     font-size: 70pt;
     position:static;
     letter-spacing: -2px;
+    
 }
 
 h2 a:active{
@@ -110,6 +117,10 @@ h2 a:active{
     visibility: hidden;
 }
 
+.forsale:hover{
+    transform:rotate(20deg);
+}
+
 .jobs{
     -ms-transform: rotate(25deg);
     -webkit-transform: rotate(25deg);
@@ -129,6 +140,11 @@ h2 a:active{
     visibility: hidden;
 }
 
+.jobs:hover{
+    transform:rotate(30deg);
+}
+
+
 .personals{
     -ms-transform: rotate(-20deg);
     -webkit-transform: rotate(-20deg);
@@ -147,6 +163,11 @@ h2 a:active{
  
     visibility: hidden;
 }
+
+.personals:hover{
+    transform:rotate(-30deg);
+}
+
 
 .housing{
     -ms-transform: rotate(-10deg);
@@ -223,6 +244,11 @@ h2 a:active{
  
     visibility: hidden;
 }
+
+.services:hover{
+    transform:rotate(5deg);
+}
+
 
 .monthly{
     -ms-transform: rotate(-60deg);
