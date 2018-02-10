@@ -154,6 +154,26 @@ h4 a:visited{
     visibility: hidden;
 }
 
+.post{
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(20deg);
+    position: absolute;
+    top: 720px;
+    left: 1400px;
+    font-size: 50%;
+    
+    -webkit-animation: 5.3s fadeIn;
+    -moz-animation: 5.3s fadeIn;
+    animation: 5.3s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
 
 /* COLUMN 1 */
 
