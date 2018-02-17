@@ -857,12 +857,12 @@ h4 a:visited{
 /* COLUMN 4 */
 
 .time{
-    -ms-transform: rotate(-40deg);
-    -webkit-transform: rotate(-40deg);
-    transform: rotate(-40deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
     position: absolute;
-    top: 80px;
-    left: 970px;
+    top: 395px;
+    left: 1250px;
     
     -webkit-animation: 3.7s fadeIn;
     -moz-animation: 3.7s fadeIn;
@@ -876,7 +876,7 @@ h4 a:visited{
 }
 
 .time:hover{
-    transform: rotate(-60deg);
+    transform: rotate(20deg);
 }
 
 .vehicles{
@@ -884,8 +884,8 @@ h4 a:visited{
     -webkit-transform: rotate(-19deg);
     transform: rotate(-19deg);
     position: absolute;
-    top: 90px;
-    left: 1010px;
+    top: 440px;
+    left: 1160px;
     
     -webkit-animation: 3.8s fadeIn;
     -moz-animation: 3.8s fadeIn;
@@ -907,8 +907,8 @@ h4 a:visited{
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
     position: absolute;
-    top: 125px;
-    left: 1060px;
+    top: 465px;
+    left: 1215px;
     
     -webkit-animation: 3.9s fadeIn;
     -moz-animation: 3.9s fadeIn;
@@ -930,8 +930,8 @@ h4 a:visited{
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
     position: absolute;
-    top: 160px;
-    left: 1180px;
+    top: 500px;
+    left: 1250px;
     
     -webkit-animation: 4s fadeIn;
     -moz-animation: 4s fadeIn;
@@ -953,8 +953,8 @@ h4 a:visited{
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     position: absolute;
-    top: 190px;
-    left: 1110px;
+    top: 530px;
+    left: 1190px;
     
     -webkit-animation: 4.1s fadeIn;
     -moz-animation: 4.1s fadeIn;
@@ -976,8 +976,8 @@ h4 a:visited{
     -webkit-transform: rotate(-8deg);
     transform: rotate(-8deg);
     position: absolute;
-    top: 225px;
-    left: 1100px;
+    top: 565px;
+    left: 1200px;
     
     -webkit-animation: 4.3s fadeIn;
     -moz-animation: 4.3s fadeIn;

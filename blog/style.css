@@ -1,0 +1,61 @@
+menu a:hover{
+    opacity: .6;
+}
+
+*{
+    text-decoration: none;
+}
+
+*::selection{
+    background: blue;
+    opacity: 1;
+    color: white;
+}
+
+menu a{
+    font-family: sans-serif;
+    color: black;
+    opacity: .2;
+    font-size: 10pt;
+    transition: .3s ease-in-out;
+}
+
+menu{
+    position: relative;
+    left: 350px;
+    max-width: 200px;
+}
+
+menu li{
+    text-align: right;
+    line-height: 1.5;
+}
+
+content p{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 10pt;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 200px;
+}
+
+content{
+    position: relative;
+    left: 400px;
+    max-width: 300px;
+}
+
+body menu, content{
+    display:inline-block;
+}
+
+body menu{
+    vertical-align: top;
+    margin-top: 200px;
+}
+
+footer{
+    display: block;
+    height: 200px;
+}
