@@ -110,6 +110,17 @@ header h1:active{
     letter-spacing: -2px;
 }
 
+.favors{
+    -ms-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 140px;
+    left: 860px;
+    color: #0000EE;
+    text-decoration: underline;
+}
+
 h2 a:active{
     cursor: url(HANDY4.png), auto;
 }
@@ -160,114 +171,7 @@ h2 a:active{
 
 /* ITEMS */
 
-.jobs{
-    -ms-transform: rotate(25deg);
-    -webkit-transform: rotate(25deg);
-    transform: rotate(25deg);
-    position: absolute;
-    top: 470px;
-    left: 700px;
-    color: #0000EE;
-    text-decoration: underline;
-}
-
-.arranged{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    position: absolute;
-    top: 590px;
-    left: 700px;
-    
-    -webkit-animation: 1.2s fadeIn;
-    -moz-animation: 1.2s fadeIn;
-    animation: 1.2s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.avoided{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    transform: rotate(-9deg);
-    position: absolute;
-    top: 250px;
-    left: 950px;
-    
-    -webkit-animation: .5s fadeIn;
-    -moz-animation: .5s fadeIn;
-    animation: .5s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.psp{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-4deg);
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    position: absolute;
-    top: 300px;
-    left: 1020px;
-    
-    -webkit-animation: .6s fadeIn;
-    -moz-animation: .6s fadeIn;
-    animation: .6s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.psv{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-1deg);
-    -webkit-transform: rotate(-1deg);
-    transform: rotate(-1deg);
-    position: absolute;
-    top: 345px;
-    left: 1040px;
-    
-    -webkit-animation: .7s fadeIn;
-    -moz-animation: .7s fadeIn;
-    animation: .7s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.platonic{
+.huge{
     font-family: arial, sans-serif;
     color: #0000EE;
     font-size: 35pt;
@@ -291,7 +195,7 @@ h2 a:active{
     visibility: hidden;
 }
 
-.vsp{
+.medium{
     font-family: arial, sans-serif;
     color: #0000EE;
     font-size: 35pt;
@@ -315,7 +219,7 @@ h2 a:active{
     visibility: hidden;
 }
 
-.vsv{
+.small{
     font-family: arial, sans-serif;
     color: #0000EE;
     font-size: 35pt;
@@ -331,54 +235,6 @@ h2 a:active{
     -webkit-animation: 1s fadeIn;
     -moz-animation: 1s fadeIn;
     animation: 1s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.whatever{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    position: absolute;
-    top: 540px;
-    left: 710px;
-    
-    -webkit-animation: 1.1s fadeIn;
-    -moz-animation: 1.1s fadeIn;
-    animation: 1.1s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
-.etc{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    position: absolute;
-    top: 590px;
-    left: 700px;
-    
-    -webkit-animation: 1.2s fadeIn;
-    -moz-animation: 1.2s fadeIn;
-    animation: 1.2s fadeIn;
  
     -webkit-animation-fill-mode: forwards; 
     -moz-animation-fill-mode: forwards;

@@ -103,16 +103,16 @@ input:focus{
 .i-body{
     -ms-transform: rotate(5deg);
     -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
+    transform: rotate(-2deg);
     position: absolute;
-    top: 400px;
-    left: 500px;
+    top: 350px;
+    left: 200px;
     padding-left: 5px;
     z-index: -99;
     resize: none;
     font-family: "Times New Roman";
-    font-size: 30px;
-    background-color: #eee;
+    font-size: 24px;
+    height: 1200px;
     border: none;
 }
 
@@ -130,7 +130,6 @@ input:focus{
     font-weight: bold;
     font-size: 30px;
     /*border: 2px #ccc solid;*/
-    background-color: #eee;
     border: none;
 }
 
@@ -148,7 +147,6 @@ input:focus{
     font-weight: bold;
     font-size: 30px;
     /*border: 2px #ccc solid;*/
-    background-color: #eee;
     border: none;
 }
 
@@ -166,7 +164,6 @@ input:focus{
     font-weight: bold;
     font-size: 30px;
     /*border: 2px #ccc solid;*/
-    background-color: #eee;
     border: none;
 }
 
@@ -203,6 +200,7 @@ select{
     position: absolute;
     left: 200px;
     top: 400px;
+    visibility: hidden;
     
 }
 
