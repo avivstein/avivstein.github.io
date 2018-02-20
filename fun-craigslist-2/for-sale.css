@@ -158,7 +158,7 @@ h4 a:visited{
     -ms-transform: rotate(-20deg);
     -webkit-transform: rotate(-20deg);
     transform: rotate(20deg);
-    position: absolute;
+    position: fixed;
     top: 720px;
     left: 1400px;
     font-size: 50%;
