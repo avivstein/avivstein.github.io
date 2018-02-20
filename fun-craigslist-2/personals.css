@@ -164,6 +164,7 @@ h2 a:active{
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
     position: absolute;
+    color: #0000EE;
     text-decoration: underline;
     top: 490px;
     left: 70px;

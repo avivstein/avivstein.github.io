@@ -113,6 +113,11 @@ h2 a:active{
     cursor: url(HANDY4.png), auto;
 }
 
+.subcats{
+    font-family: sans-serif;
+    font-size: 25pt;
+}
+
 .back{
     font-family: sans-serif;
     color: #0000EE;
@@ -161,12 +166,137 @@ h2 a:active{
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
     position: absolute;
+    text-decoration: underline;
+    color: #0000EE;
     top: 270px;
     left: 1000px;
+}
+
+.apartments{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 440px;
+    left: 200px;
     
-    -webkit-animation: 1.3s fadeIn;
-    -moz-animation: 1.3s fadeIn;
-    animation: 1.3s fadeIn;
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.couches{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 470px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.homes{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.office{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.rooms{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 570px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.vacation{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
+ 
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+    visibility: hidden;
+}
+
+.etc{
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    position: absolute;
+    top: 630px;
+    left: 200px;
+    
+    -webkit-animation: .8s fadeIn;
+    -moz-animation: .8s fadeIn;
+    animation: .8s fadeIn;
  
     -webkit-animation-fill-mode: forwards; 
     -moz-animation-fill-mode: forwards;
