@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+}
+
+.main{
+    display: inline-block;
+}
+
+.wtf a{
+    color: black;
+    opacity: .25;
+    visibility: hidden;
+}
+
+h1 a{
+    font-family: sans-serif;
+    font-size: 15pt;;
+    color: #651A9A;
+    position: relative;
+    top: 10vh;
+    left: 20vh;
+}
+
+h2 a{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: blue;
+    left: 20vh;
+    top: 15vh;
+    position: relative;
+}
+
+h2 a:hover{
+    background-color: yellow;
+}
+
+.bg{
+    position: relative;
+    z-index: -999;
+    left: 50px;
+    display: block;
+    top: -00px;
+    height: 600px;
+    width: 200px;
+    background-color: #651A9A;
+    visibility: hidden;
+}
+
+.list{
+    display: inline-block;
+}
+
+.list 2 {
+}
+
+.list 1{
+    position: relative;
+    vertical-align: top;
+}

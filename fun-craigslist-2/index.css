@@ -88,7 +88,11 @@ header h5{
 header h5:hover{
     opacity: 1;
     transform: rotate(345deg);
-    cursor: url(HANDY6.png), auto;
+    cursor: url(HANDY8.png), auto;
+}
+
+header h5:active{
+    cursor: url(HANDY10.png), auto;
 }
 
 header h1:hover{
@@ -97,6 +101,7 @@ header h1:hover{
 header h1:active{
     cursor: url(HANDY4.png), auto;
 }
+
 /* CATEGORIES */
 
 .categories{

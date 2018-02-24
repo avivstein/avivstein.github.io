@@ -171,30 +171,6 @@ h2 a:active{
     left: 70px;
 }
 
-.arranged{
-    font-family: arial, sans-serif;
-    color: #0000EE;
-    font-size: 35pt;
-    text-decoration: none;
-    
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    position: absolute;
-    top: 590px;
-    left: 700px;
-    
-    -webkit-animation: 1.2s fadeIn;
-    -moz-animation: 1.2s fadeIn;
-    animation: 1.2s fadeIn;
- 
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
- 
-    visibility: hidden;
-}
-
 .avoided{
     font-family: arial, sans-serif;
     color: #0000EE;
