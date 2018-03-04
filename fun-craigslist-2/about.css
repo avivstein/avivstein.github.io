@@ -3,14 +3,9 @@ body{
 }
 
 h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: sans-serif;
     color: white;
-    text-shadow: 3px 3px 0px black;
-    font-size: 15px;
-}
-
-h1:hover{
-    color: yellow;
+    font-size: 25px;
 }
 
 .title{
